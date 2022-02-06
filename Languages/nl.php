@@ -1,0 +1,138 @@
+<?php
+ 
+return [
+ 
+  // Dutch translated by Mubeen
+  
+  'us' => 'English',
+  'id' => 'Indonesian',
+  'hu' => 'Hungarian',
+  'jp' => 'Japanese',
+  'cz' => 'Czech',
+  'de' => 'Deutsch',
+  'nl' => 'Dutch',
+  'es' => 'Spanish',
+  'pt' => 'Portuguese',
+  'fr' => 'French',
+  'it' => 'Italian',
+  'ru' => 'Russian',
+ 
+ 
+  'title' => 'Billing',
+  'connecting' => 'Aan het verbinden...',
+  
+  // Nav Pages
+  'billing_page' => 'Billing',
+  'balance_page' => 'Saldo',
+  'cart_page' => 'Winkelmandje',
+  'plan_page' => 'Mijn plannen',
+  'servers_page' => 'Servers',
+  'console_page' => 'Console',
+  'files_page' => 'Bestanden',
+  'databases_page' => 'Databases',
+  'shedulers_page' => 'Schemas',
+  'users_page' => 'Gebruikers',
+  'backups_page' => 'Backups',
+  'network_page' => 'Netwerk',
+  'startup_page' => 'Start configuratie',
+  'settings_page' => 'Instellingen',
+  'manage_page' => 'Beheren',
+  'account_page' => 'Account',
+  'admin_page' => 'Administrator',
+  'out_page' => 'Uitloggen',
+  'plugin_page' => 'Plugins',
+
+  // Account
+  'account_balance' => 'Account Saldo',
+  'paypal' => 'PayPal',
+  'stripe' => 'Stripe',
+  'billing_information' => 'Billing Informatie',
+  'amount_info' => 'Voer het bedrag in dat je wilt opwaarderen',
+  'card_holder' => 'Naam van kaarthouder',
+  'email' => 'E-mail',
+  'caed_number' => 'Kaartnummer',
+  'cvv' => 'CVV',
+  'pay_now' => 'Nu betalen',
+  'username' => 'gebruikersnaam',
+  'address' => 'adres',
+  'first_name' => 'Voornaam',
+  'last_name' => 'Achternaam',
+  'city' => 'Plaats',
+  'country' => 'Land',
+  'postal_code' => 'Postcode',
+  'update_billing_nformation' => 'Billing informatie wijzigen',
+  'edit_account' => 'Account beheren',
+  'account_api' => 'Account API',
+  'billing_balance' => 'Billing Saldo',
+  'admin_area' => 'Administratie Paneel',
+  'dark_mode' => 'Donker Thema',
+  'logout' => 'uitloggen',
+ 
+  // Cart
+  'checkout' => 'Uitchecken',
+  'game' => 'Spel',
+  'billed' => 'gefactureerd',
+  'actions' => 'Acties',
+  'empty_cart' => 'Winkelmandje is leeg.',
+  'place_order' => 'Bestelling plaatsen',
+  'plan_name' => 'Plan Naam',
+  'total_order' => 'Totale bestelling: ',
+  'cancel' => 'Annuleren',
+  'confirm' => 'Bevestigen',
+  'confirm_place_order_info' => 'Nadat je op “bevestigen” hebt gedrukt wordt de bestelling geplaatst en het bedrag afgeschreven van je rekening.',
+ 
+  // Billing
+  'date_label' => 'Datum',
+  'price_label' => 'Prijs',
+  'view_plan' => 'Plannen bekijken',
+  'view_invoices' => 'Facturen bekijken',
+  'extend' => 'Verlengen',
+  'days_for' => 'Dagen voor',
+  'deleted' => 'verwijderd',
+  'pay' => 'Betalen',
+  'are_you_sure' => 'Weet je het zeker?',
+  'remove' => 'Verwijderen',
+  'close' => 'Minimaliseren',
+ 
+  // Plans
+  'plans_labal' => 'Plannen',
+  'add_to_cart' => 'Toevoegen aan winkelmandje',
+  'description' => 'Beschrijving',
+  'monthly' => 'Maandelijks',
+  'year' => 'Jaar',
+  'quarterly' => 'Per kwartaal',
+  'unlimited' => 'Onbeperkt',
+  'days' => 'dagen',
+  'cpu' => 'CPU:',
+  'ram' => 'RAM:',
+  'storage' => 'beslag:',
+  'backup' => 'Backup(s)',
+  'database' => 'Database(s)',
+  'exstra_ports' => 'Extra Port(s)',
+ 
+  // Invoices
+  'invoice_date' => 'Factuur Datum:',
+  'due_date' => 'Vervaldatum:',
+  'invoice_price' => 'Prijs:',
+  'renew_plan' => 'Plan verlengen',
+  'view_invoices' => 'Bekijk factures',
+  'request_cancellation' => 'Ontzegging aanvragen',
+  'extend_plan_info' => 'Het betalen van het bedrag zal de plan verlengen, klik daarvoor het betalen knopje hier beneden.<br> Nadat het betalen knop is ingedrukt, wordt er automatisch het bedrag afgeschreven van je rekening en je plan verlengd. <br>',
+  'remove_plan_info' => 'Het aanvragen van ontzegging zal je server permanent verwijderen zonder mogelijkheid om terug te krijgen. Alle bestanden, en databases worden verwijderd. Er is geen mogelijkheid om dit proces terug te draaien. Wees voorzichtig!',
+ 
+ 
+  // Success
+  'plan_added_cart' => 'Plan was succesvol toegevoegd aan winkelmandje',
+  'server_create_success' => 'Je server was succesvol gecreëerd, ga naar “Mijn Plannen” voor meer informatie.',
+  'stripe_status_url' => 'Betaling Status: ',
+  'success' => 'Succes',
+ 
+  // Errors
+  'err_remove_game' => 'Sorry. Je moet eerst alle plannen verwijderd die gelinked staan aan dit spel.',
+  'err_plan_limit' => 'Sorry. Je hebt een limiet bereikt. Limiet voor deze plan is: ',
+  'err_create_server' => 'Er was een foutcode tijdens het creëren van je sever.',
+  'err_user_balance' => 'Er is niet genoeg geld in je rekening om deze aankoop te verrichten.',
+  'err_plan_exist' => 'Plan was succesvol verwijderd van je winkelmandje.',
+  'err_plans_in_game' => 'Er zijn geen plannen beschikbaar voor dit spel.',
+  'error' => 'Foutmelding',
+];

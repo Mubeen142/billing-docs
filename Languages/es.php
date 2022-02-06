@@ -1,0 +1,138 @@
+<?php
+ 
+return [
+ 
+  // Español traducido por !𝕬𝖉𝖗𝖎𝖆𝖓𝖂𝕹
+ 
+  'us' => 'Ingles',
+  'id' => 'Indonesian',
+  'hu' => 'Húngaro',
+  'jp' => 'Japonés',
+  'cz' => 'Czech',
+  'de' => 'Alemán',
+  'nl' => 'Dutch',
+  'es' => 'Español',
+  'pt' => 'Portuguese',
+  'fr' => 'French',
+  'it' => 'Italian',
+  'ru' => 'Russian',
+
+
+  'title' => 'Facturación',
+  'connecting' => 'Conectando...',
+ 
+  // Nav Pages
+  'billing_page' => 'Facturación',
+  'balance_page' => 'Cartera',
+  'cart_page' => 'Carrito',
+  'plan_page' => 'Mis Planes',
+  'servers_page' => 'Servidores',
+  'console_page' => 'Consola',
+  'files_page' => 'Archivos',
+  'databases_page' => 'Base de Datos',
+  'shedulers_page' => 'Horarios',
+  'users_page' => 'Usuarios',
+  'backups_page' => 'Backups',
+  'network_page' => 'Network',
+  'startup_page' => 'Inicios',
+  'settings_page' => 'Ajustes',
+  'manage_page' => 'Administrar',
+  'account_page' => 'Cuenta',
+  'admin_page' => 'Admin',
+  'out_page' => 'Cerrar sesión',
+ 
+  // Account
+  'account_balance' => 'Saldo de la cuenta',
+  'paypal' => 'PayPal',
+  'stripe' => 'Stripe',
+  'billing_information' => 'Información de facturación',
+  'amount_info' => 'Ingrese la cantidad que desea agregar',
+  'card_holder' => 'Nombre del titular de la tarjeta',
+  'email' => 'Email',
+  'caed_number' => 'Número de tarjeta',
+  'cvv' => 'CVV',
+  'pay_now' => 'Pagar ahora',
+  'username' => 'Nombre de usuario',
+  'address' => 'Dirección',
+  'first_name' => 'Primer Nombre',
+  'last_name' => 'Segundo Nombre',
+  'city' => 'Ciudad',
+  'country' => 'País',
+  'postal_code' => 'Código Postal',
+  'update_billing_nformation' => 'Actualizar la información de facturación',
+  'edit_account' => 'Editar cuenta',
+  'account_api' => 'API de cuenta',
+  'billing_balance' => 'Saldo de facturación',
+  'admin_area' => 'Área de administración',
+  'dark_mode' => 'Modo Oscuro',
+  'logout' => 'Cerrar sesión',
+  'plugin_page' => 'Plugins',
+
+  // Cart
+  'checkout' => 'Verificar',
+  'game' => 'Juego',
+  'billed' => 'Facturado',
+  'actions' => 'Acciones',
+  'empty_cart' => 'El carrito esta vacío.',
+  'place_order' => 'Realizar pedido',
+  'plan_name' => 'Nombre del plan',
+  'total_order' => 'Orden total: ',
+  'cancel' => 'Cancelar',
+  'confirm' => 'Confirmar',
+  'confirm_place_order_info' => 'Después de hacer clic en "Confirmar pedido", se realizará su pedido y la cantidad se reducirá de su saldo actual.',
+ 
+  // Billing
+  'date_label' => 'Fecha',
+  'price_label' => 'Precio',
+  'view_plan' => 'Ver planes',
+  'view_invoices' => 'Ver facturas',
+  'extend' => 'Ampliar',
+  'days_for' => 'días para',
+  'deleted' => 'Eliminado',
+  'pay' => 'Pagar',
+  'are_you_sure' => '¿Estas seguro?',
+  'remove' => 'Eliminar',
+  'close' => 'Cerrar',
+ 
+  // Plans
+  'plans_labal' => 'Planes',
+  'add_to_cart' => 'Añadir al carrito',
+  'description' => 'Descripción',
+  'monthly' => 'Mensual',
+  'year' => 'Año',
+  'quarterly' => 'Trimestral',
+  'unlimited' => 'Ilimitado',
+  'days' => 'dias',
+  'cpu' => 'CPU:',
+  'ram' => 'RAM:',
+  'storage' => 'Almacenamiento:',
+  'backup' => 'Backup(s)',
+  'database' => 'Base de dato(s)',
+  'exstra_ports' => 'Puerto(s) adicional(es)',
+ 
+  // Invoices
+  'invoice_date' => 'Fecha de la factura:',
+  'due_date' => 'Fecha de vencimiento:',
+  'invoice_price' => 'Precio:',
+  'renew_plan' => 'Renovar plan',
+  'view_invoices' => 'Ver facturas',
+  'request_cancellation' => 'Solicitar una cancelación',
+  'extend_plan_info' => 'Completar el pago extenderá su plan, haga clic en el botón "Pagar" a continuación para extenderlo. <br> Después de presionar el botón de pago, automáticamente reduciremos la cantidad correspondiente de su saldo. <br>',
+  'remove_plan_info' => 'Solicitar la cancelación eliminará el servidor, eliminando todos los archivos sin la posibilidad de restaurarlos. Si el servidor está activo pierde el dinero gastado sin posibilidad de devolverlo!!!',
+ 
+ 
+  // Success
+  'plan_added_cart' => 'Plan agregado al carrito',
+  'server_create_success' => 'Su servidor se ha creado correctamente, diríjase a "Mis planes" para obtener más información.',
+  'stripe_status_url' => 'URL de estado: ',
+  'success' => 'Éxito',
+ 
+  // Errors
+  'err_remove_game' => 'Lo sentimos. Primero debes eliminar todos los planes que pertenecen a este juego.',
+  'err_plan_limit' => 'Lo sentimos. Has alcanzado un límite del plan. Solo se le permite tener la siguiente cantidad: ',
+  'err_create_server' => 'Hubo un error al crear un servidor nuevo.',
+  'err_user_balance' => 'No hay suficiente saldo en su cuenta para realizar esta compra. Añade desde "Cartera".',
+  'err_plan_exist' => 'El plan ha sido eliminado de su carrito.',
+  'err_plans_in_game' => 'No hay planes para este juego.',
+  'error' => 'Error',
+];

@@ -1,0 +1,138 @@
+<?php
+
+return [
+
+  // Indonesian translated by Sahrul
+
+  'us' => 'English',
+  'id' => 'Indonesian',
+  'hu' => 'Hungarian',
+  'jp' => 'Japanese',
+  'cz' => 'Czech',
+  'de' => 'Deutsch',
+  'nl' => 'Dutch',
+  'es' => 'Spanish',
+  'pt' => 'Portuguese',
+  'fr' => 'French',
+  'it' => 'Italian',
+  'ru' => 'Russian',
+
+
+  'title' => 'Billing',
+  'connecting' => 'Menghubungkan...',
+  
+  // Nav Pages
+  'billing_page' => 'Layanan',
+  'balance_page' => 'Saldo',
+  'cart_page' => 'Keranjang',
+  'plan_page' => 'Layanan Saya',
+  'servers_page' => 'Servers',
+  'console_page' => 'Console',
+  'files_page' => 'Files',
+  'databases_page' => 'Databases',
+  'shedulers_page' => 'Schedules',
+  'users_page' => 'Users',
+  'backups_page' => 'Backups',
+  'network_page' => 'Network',
+  'startup_page' => 'Startup',
+  'settings_page' => 'Settings',
+  'manage_page' => 'Manage',
+  'account_page' => 'Account',
+  'admin_page' => 'Admin',
+  'out_page' => 'Log Out',
+  'plugin_page' => 'Plugins',
+
+  // Account
+  'account_balance' => 'Saldo Akun',
+  'paypal' => 'PayPal',
+  'stripe' => 'Stripe',
+  'billing_information' => 'Informasi Penagihan',
+  'amount_info' => 'Silakan masukkan jumlah yang ingin Anda tambahkan',
+  'card_holder' => 'Nama Pemegang Kartu',
+  'email' => 'Email',
+  'caed_number' => 'Nomor Kartu Kredit',
+  'cvv' => 'CVV',
+  'pay_now' => 'Bayar Sekarang',
+  'username' => 'Username',
+  'address' => 'Alamat',
+  'first_name' => 'Nama depan',
+  'last_name' => 'Nama belakang',
+  'city' => 'Kota',
+  'country' => 'Negara',
+  'postal_code' => 'Kode Pos',
+  'update_billing_nformation' => 'Perbarui Informasi Penagihan',
+  'edit_account' => 'Edit Akun',
+  'account_api' => 'Account API',
+  'billing_balance' => 'Saldo Penagihan',
+  'admin_area' => 'Admin Area',
+  'dark_mode' => 'Mode Gelap',
+  'logout' => 'Keluar',
+
+  // Cart
+  'checkout' => 'Checkout',
+  'game' => 'Game',
+  'billed' => 'Ditagih',
+  'actions' => 'Aksi',
+  'empty_cart' => 'Keranjang Kosong.',
+  'place_order' => 'Tempatkan Pesanan',
+  'plan_name' => 'Nama Layanan',
+  'total_order' => 'Total Pesanan: ',
+  'cancel' => 'Batalkan',
+  'confirm' => 'Konfirmasi',
+  'confirm_place_order_info' => 'Setelah menekan "Konfirmasi Pesanan", pesanan Anda akan ditempatkan dan jumlahnya akan dikurangi dari saldo Anda saat ini.',
+
+  // Billing
+  'date_label' => 'Tanggal',
+  'price_label' => 'Harga',
+  'view_plan' => 'Lihat Layanan',
+  'view_invoices' => 'Lihat Tagihan',
+  'extend' => 'Perpanjang',
+  'days_for' => 'hari Seharga',
+  'deleted' => 'dihapus',
+  'pay' => 'Bayar',
+  'are_you_sure' => 'Apa kamu yakin?',
+  'remove' => 'Hapus',
+  'close' => 'Tutup',
+
+  // Plans
+  'plans_labal' => 'Layanan',
+  'add_to_cart' => 'Tambah ke Keranjang',
+  'description' => 'Deskripsi',
+  'monthly' => 'Bulanan',
+  'year' => 'Tahun',
+  'quarterly' => 'Triwulan',
+  'unlimited' => 'Unlimited',
+  'days' => 'hari',
+  'cpu' => 'CPU:',
+  'ram' => 'RAM:',
+  'storage' => 'Storage:',
+  'backup' => 'Backup(s)',
+  'database' => 'Database(s)',
+  'exstra_ports' => 'Extra Port(s)',
+
+  // Invoices
+  'invoice_date' => 'Tanggal Tagihan:',
+  'due_date' => 'Tenggat waktu:',
+  'invoice_price' => 'Harga:',
+  'renew_plan' => 'Perbarui Layanan',
+  'view_invoices' => 'Lihat Tagihan',
+  'request_cancellation' => 'Permintaan Pembatalan',
+  'extend_plan_info' => 'Menyelesaikan pembayaran akan memperpanjang Layanan Anda, silakan klik tombol "Bayar" di bawah ini untuk memperpanjang.<br> Setelah tombol bayar ditekan, kami akan secara otomatis mengurangi jumlah yang sesuai dari saldo Anda. <br>',
+  'remove_plan_info' => 'Meminta Pembatalan akan menghapus server, menghapus semua file tanpa kemungkinan untuk memulihkan. Jika server aktif, Anda kehilangan uang yang dihabiskan tanpa kemungkinan mengembalikannya!!!',
+
+
+  // Success
+  'plan_added_cart' => 'Menambahkan layanan ke Keranjang',
+  'server_create_success' => 'Server Anda telah berhasil dibuat, silakan menuju ke Layanan Saya untuk informasi lebih lanjut.',
+  'stripe_status_url' => 'Status url: ',
+  'success' => 'Berhasil',
+
+  // Errors
+  'err_remove_game' => 'Maaf. Anda harus terlebih dahulu menghapus semua Layanan milik game ini.',
+  'err_plan_limit' => 'Maaf. Anda telah mencapai batas. Anda hanya diperbolehkan untuk membeli jumlah berikut:',
+  'err_create_server' => 'Terjadi kesalahan saat membuat server baru.',
+  'err_user_balance' => 'Saldo di akun Anda tidak cukup untuk melakukan pembelian ini.',
+  'err_plan_exist' => 'Layanan telah dihapus dari keranjang Anda.',
+  'err_plans_in_game' => 'Tidak ada Layanan untuk permainan ini.',
+  'error' => 'Kesalahan',
+];
