@@ -14,6 +14,7 @@ return [
   'fr' => 'French',
   'it' => 'Italian',
   'ru' => 'Russian',
+  'tw' => 'Chinese',
  
  
   'title' => 'Pagamento',

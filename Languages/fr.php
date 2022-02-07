@@ -16,6 +16,7 @@ return [
   'fr' => 'Français',
   'it' => 'Italian',
   'ru' => 'Russian',
+  'tw' => 'Chinese',
  
  
   'title' => 'Facturation',
