@@ -2,8 +2,12 @@
 
 return [
 
-  // English translated by Gigabait
+  // Billing by Mubeen & GIGABAIT
 
+  'title' => 'Billing',
+  'connecting' => 'Connecting...',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -18,10 +22,6 @@ return [
   'ru' => 'Russian',
   'tw' => 'Chinese',
 
-  
-  'title' => 'Billing',
-  'connecting' => 'Connecting...',
-  
   // Nav Pages
   'billing_page' => 'Billing',
   'balance_page' => 'Balance',
@@ -42,7 +42,7 @@ return [
   'admin_page' => 'Admin',
   'out_page' => 'Log Out',
   'plugin_page' => 'Plugins',
-  
+
   // Account
   'account_balance' => 'Account Balance',
   'paypal' => 'PayPal',
@@ -68,7 +68,7 @@ return [
   'admin_area' => 'Admin Area',
   'dark_mode' => 'Dark Mode',
   'light_mode' => 'Light Mode',
-  'logout' => 'Logout',
+  'logout' => 'Log out',
   'register' => 'Register',
   'login' => 'Login',
 
@@ -125,7 +125,6 @@ return [
   'extend_plan_info' => 'Completing payment will extend your plan, please click the "Pay" button below to extend.<br> After the pay button has been pressed, we will automatically reduce the corresponding amount from your balance. <br>',
   'remove_plan_info' => 'Requesting Cancellation will delete the server, deleting all files without the possibility to restore. If the server is active you lose the money spent without the possibility of returning them!!!',
 
-
   // Success
   'plan_added_cart' => 'Added plan to cart',
   'server_create_success' => 'Your server has successfully been created, please head to My Plans for more information.',
@@ -140,7 +139,6 @@ return [
   'err_plan_exist' => 'The plan has been removed from your cart.',
   'err_plans_in_game' => 'There are no plans for this game.',
   'error' => 'Error',
-
 
   // Portal
   'portal_sw_mode' => 'Switch Mode',

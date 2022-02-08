@@ -1,9 +1,13 @@
 <?php
- 
+
 return [
- 
-  // English translated by Gigabait
- 
+
+  // German translated by FunGuava#6566 & Chaarlix#0889
+
+  'title' => 'Abrechnung',
+  'connecting' => 'Verbinde…',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -17,11 +21,6 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
- 
-  // German translated by FunGuava#6566 and Chaarlix#0889
-
-  'title' => 'Abrechnung',
-  'connecting' => 'Verbinde…',
 
   // Nav Pages
   'billing_page' => 'Produkte',
@@ -68,8 +67,11 @@ return [
   'billing_balance' => 'Rechnungssaldo',
   'admin_area' => 'Admin-Bereich',
   'dark_mode' => 'Dark-Mode',
+  'light_mode' => 'Light-Mode',
+  'register' => 'Register',
+  'login' => 'Login',
   'logout' => 'Ausloggen',
- 
+
   // Cart
   'checkout' => 'Auschecken',
   'game' => 'Spiel',
@@ -82,7 +84,7 @@ return [
   'cancel' => 'Abbrechen',
   'confirm' => 'Bestätigen',
   'confirm_place_order_info' => ' Nachdem Sie auf „Bestellung bestätigen“ gedrückt haben, wird Ihre Bestellung platziert und der Betrag von ihrem aktuellen Kontostand abgezogen.',
- 
+
   // Billing
   'date_label' => 'Datum',
   'price_label' => 'Preis',
@@ -95,7 +97,7 @@ return [
   'are_you_sure' => 'Sind Sie sich sicher?',
   'remove' => 'Löschen',
   'close' => 'Schließen',
- 
+
   // Plans
   'plans_labal' => 'Pläne',
   'add_to_cart' => ' zum Einkaufswagen hinzufügen',
@@ -111,7 +113,8 @@ return [
   'backup' => 'Backup(s)',
   'database' => 'Datenbank(en)',
   'exstra_ports' => 'zusätzliche Ports',
- 
+  'plugin_integration' => 'Plugins installer',
+
   // Invoices
   'invoice_date' => 'Kaufdatum:',
   'due_date' => 'Fälligkeitsdatum:',
@@ -121,14 +124,13 @@ return [
   'request_cancellation' => 'Abbestellen',
   'extend_plan_info' => 'Nach Abschluss der Zahlung wird Ihr Plan verlängert. <br> Nach Abschluss der Zahlung wird der Betrag automatisch von ihrem Konto abgezogen. <br>',
   'remove_plan_info' =>  'Eine Stornierung löscht den Server und alle zugehörigen Dateien - eine Wiederherstellung ist nicht möglich. Achtung: Falls der Server noch aktiv ist, ist keine Rückerstattung des noch verbleibenden Betrags möglich.',
- 
- 
+
   // Success
   'plan_added_cart' => 'Plan wurde zum Einkaufswagen hinzugefügt',
   'server_create_success' => 'Ihr Server wurde erfolgreich erstellt. Weitere Informationen finden Sie unter „Meine Pläne“ ',
   'stripe_status_url' => 'Status URL: ',
   'success' => 'Erfolgreich',
-  
+
   // Errors
   'err_remove_game' => 'Es tut uns leid. Sie müssen zuerst alle zu diesem Spiel gehörenden Pläne entfernen.',
   'err_plan_limit' => 'Es tut uns leid. Sie haben die Kaufgrenze erreicht. Sie dürfen nur die folgende Anzahl kaufen: ',
@@ -138,6 +140,7 @@ return [
   'err_plans_in_game' => 'Es gibt keine Pläne für diese Spiel.',
   'error' => 'Fehler',
 
+  // Portal
   'portal_sw_mode' => 'Dark/Light-Mode',
   'portal' => 'Portal',
   'features' => 'Features',
@@ -171,20 +174,7 @@ return [
   'create_account' => 'Konto erstellen',
   'faq_section_title' => 'Häufig gestellte Fragen',
   'faq_section_title_desc' => 'Nachfolgend findest Du eine Liste mit häufig gestellten Fragen.',
- 
-  // dont translate faq lists
-  'faq_list_1' => 'Non consectetur a erat nam at lectus urna duis?',
-  'faq_list_1_desc' => 'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.',
-  'faq_list_2' => 'Feugiat scelerisque varius morbi enim nunc? ',
-  'faq_list_2_desc' => 'Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.',
-  'faq_list_3' => 'Dolor sit amet consectetur adipiscing elit? ',
-  'faq_list_3_desc' => 'Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis',
-  'faq_list_4' => 'Tempus quam pellentesque nec nam aliquam sem et tortor consequat? ',
-  'faq_list_4_desc' => 'Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.',
-  'faq_list_5' => 'Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? ',
-  'faq_list_5_desc' => 'Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.',
-  '
-  features_desc' => 'Unser Game-Panel verfügt über eine Vielzahl von integrierten Funktionen',
+  'features_desc' => 'Unser Game-Panel verfügt über eine Vielzahl von integrierten Funktionen',
   'plugins_manager' => 'Plugin-Manager',
   'plugins_manager_desc' => 'Wähle aus 60.000 Plugins und installiere sie mit nur einem Klick',
   'file_manager' => 'Datei-Manager',

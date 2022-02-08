@@ -4,6 +4,10 @@ return [
 
   // Chinese translated by Ryan  and kiit
 
+  'title' => '帳單',
+  'connecting' => '連接中...',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -18,10 +22,6 @@ return [
   'ru' => 'Russian',
   'tw' => '中文',
 
-  
-  'title' => '帳單',
-  'connecting' => '連接中...',
-  
   // Nav Pages
   'billing_page' => '帳單',
   'balance_page' => '餘額',
@@ -42,7 +42,7 @@ return [
   'admin_page' => '管理員',
   'out_page' => '登出',
   'plugin_page' => '插件',
-  
+
   // Account
   'account_balance' => '帳戶餘額',
   'paypal' => 'PayPal',
@@ -125,7 +125,6 @@ return [
   'extend_plan_info' => '完成付款後會延續你的方案，請按下面的【付款】按鈕延續。<br> 按下付款後，我們會自動從你的餘額裡扣取相對的款項。 <br>',
   'remove_plan_info' => '申請取消後會永久刪除整個伺服器，包括所有的檔案。如果該伺服器是活躍的，你將會失去所有你花的錢，不能退款！！！',
 
-
   // Success
   'plan_added_cart' => '成功把方案加入購物車',
   'server_create_success' => '你的伺服器已成功開啟，更多資訊請到【我的方案】查看。',
@@ -140,7 +139,6 @@ return [
   'err_plan_exist' => '此方案已從你的購物車刪除。',
   'err_plans_in_game' => '這個遊戲並沒有任何方案。',
   'error' => '錯誤',
-
 
   // Portal
   'portal_sw_mode' => '切換模式',
