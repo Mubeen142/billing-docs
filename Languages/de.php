@@ -17,6 +17,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
+  'pl' => "Polish",
  
   // German translated by FunGuava#6566 and Chaarlix#0889
 
