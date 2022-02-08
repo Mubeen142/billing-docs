@@ -17,6 +17,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => '中文',
+  'pl' => "Polish",
 
   
   'title' => '帳單',
