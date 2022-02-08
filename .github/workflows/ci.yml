@@ -1,4 +1,4 @@
-name: CI
+name: phpcs
 
 on: [push, pull_request]
 
@@ -11,4 +11,4 @@ jobs:
       - name: PHP Code Style (phpcs)
         uses: chindit/actions-phpcs@master
         with:
-          cli: "-q"
+          dir: Languages/

@@ -13,8 +13,6 @@
 
     <file>.</file>
 
-    <exclude-pattern>vendor/</exclude-pattern>
-
     <rule ref="Zend"/>
 
     <rule ref="PEAR.Functions.FunctionCallSignature.CloseBracketLine">
