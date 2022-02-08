@@ -17,6 +17,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
+  'pl' => "Polish",
   
   
   'title' => 'お申し込み',
