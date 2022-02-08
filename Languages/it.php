@@ -1,7 +1,13 @@
 <?php
- 
+
 return [
- 
+
+  // Italian translated by Frederick
+
+  'title' => 'Pagamento',
+  'connecting' => 'Connessione...',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -15,11 +21,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
- 
- 
-  'title' => 'Pagamento',
-  'connecting' => 'Connessione...',
- 
+
   // Nav Pages
   'billing_page' => 'Compra',
   'balance_page' => 'Bilancio',
@@ -39,7 +41,8 @@ return [
   'account_page' => 'Account',
   'admin_page' => 'Admin',
   'out_page' => 'Log Out',
- 
+  'plugin_page' => 'Plugins',
+
   // Account
   'account_balance' => 'Bilancio dell\'account',
   'paypal' => 'PayPal',
@@ -64,8 +67,11 @@ return [
   'billing_balance' => 'Bilancio',
   'admin_area' => 'Area Admin',
   'dark_mode' => 'Modalità scura',
+  'light_mode' => 'Light Mode',
   'logout' => 'Logout',
- 
+  'register' => 'Register',
+  'login' => 'Login',
+
   // Cart
   'checkout' => 'Cassa',
   'game' => 'Gioco',
@@ -78,7 +84,7 @@ return [
   'cancel' => 'Cancella',
   'confirm' => 'Conferma',
   'confirm_place_order_info' => 'Dopo aver premuto "Conferma ordine", il tuo ordine verrà effettuato e l\'importo verrà ridotto dal saldo corrente.',
- 
+
   // Billing
   'date_label' => 'Data',
   'price_label' => 'Prezzo',
@@ -91,7 +97,7 @@ return [
   'are_you_sure' => 'Sei sicuro?',
   'remove' => 'Rimuovi',
   'close' => 'Chiudi',
- 
+
   // Plans
   'plans_labal' => 'Piani',
   'add_to_cart' => 'Aggiungi al carrello',
@@ -107,7 +113,8 @@ return [
   'backup' => 'Backup(s)',
   'database' => 'Database(s)',
   'exstra_ports' => 'Porte Extra',
- 
+  'plugin_integration' => 'Plugins installer',
+
   // Invoices
   'invoice_date' => 'Data della ricevuta:',
   'due_date' => 'Scadenza:',
@@ -117,14 +124,13 @@ return [
   'request_cancellation' => 'Richiedi cancellazione',
   'extend_plan_info' => 'Il completamento del pagamento estenderà il tuo piano, fai clic sul pulsante "Paga" di seguito per estendere.<br> Dopo aver premuto il pulsante di pagamento, i soldi dal sando verranno rimossi. <br>',
   'remove_plan_info' => 'La richiesta di cancellazione cancellerà il server, cancellando tutti i file senza possibilità di ripristino. Se il server è attivo perderai i soldi spesi senza possibilità di restituirli!!!',
- 
- 
+
   // Success
   'plan_added_cart' => 'Aggiungi il piano al carrello',
   'server_create_success' => 'Il tuo server è stato creato con successo, vai su I miei piani per maggiori informazioni.',
   'stripe_status_url' => 'Status url: ',
   'success' => 'Successo',
- 
+
   // Errors
   'err_remove_game' => 'Scusa. Devi prima rimuovere tutti i piani che appartengono a questo gioco.',
   'err_plan_limit' => 'Scusa. Hai raggiunto un limite. Puoi acquistare solo il seguente importo: ',
@@ -133,4 +139,68 @@ return [
   'err_plan_exist' => 'Il piano è stato rimosso dal tuo carrello.',
   'err_plans_in_game' => 'Non ci sono piani per questo gioco.',
   'error' => 'Errore',
+
+  // Portal
+  'portal_sw_mode' => 'Switch Mode',
+  'portal' => 'Portal',
+  'features' => 'Features',
+  'games' => 'Games',
+  'about' => 'About',
+  'faqs' => 'FAQ\'s',
+  'discord' => 'Discord',
+  'minimize' => 'Minimize',
+  'footer_contact' => '<p>A108 Adam Street <br>New York, NY 535022<br>United States <br><br><strong>Phone:</strong> +1 5589 55488 55<br><strong>Email:</strong> info@example.com<br></p>',
+  'useful_links' => 'Useful Links',
+  'our_services' => 'Our Services',
+  'about_us' => 'About Us',
+  'about_us_content' => 'Write something about your host here.',
+  'about_us_title' => 'Why choose us?',
+  'about_us_text1' => 'We offer dozens of cool features, we\'ve got you covered!',
+  'about_us_text2' => '<li><i class=\'bx bx-check-double\' ></i> User Manager</li><li><i class=\'bx bx-check-double\' ></i> Plugin Manager</li><li><i class=\'bx bx-check-double\' ></i> File Manager</li>',
+  'get_started' => 'Get Started',
+  'game_panel' => 'Game Panel',
+  'game_panel_desc' => 'Our intuitive Game Panel provides an easy way to navigate through the panel. The billing area is directly built-in to the panel. The panel comes fitted with all of the features you will ever need, and an awesome modern design built upon Pterodactyl.',
+  'console_desc' => 'See latest logs in console, send commands or manage power actions.',
+  'pl_installer' => 'Plugin Installer',
+  'pl_installer_desc' => 'Install over 65000+ Plugins with just one-click',
+  'schedules' => 'Schedules',
+  'schedules_desc' => 'Schedule special events, tasks or power actions.',
+  'happy_clients' => 'Happy Clients',
+  'active_pans' => 'Active Plans',
+  'active_servers' => 'Active Servers',
+  'uptime' => '% Uptime',
+  'register_now' => 'Register Now',
+  'register_now_desc' => 'Register your account and get your server up and running in no-time!',
+  'create_account' => 'Create Account',
+  'faq_section_title' => 'Frequently Asked Questions',
+  'faq_section_title_desc' => 'Below is a list with most asked questions by our customers.',
+  'features_desc' => 'Our Game Panel has a wide variety of features built-in',
+  'plugins_manager' => 'Plugins Manager',
+  'plugins_manager_desc' => 'Choose from over 60000 plugins, and install with just a click of a button',
+  'file_manager' => 'File Manager',
+  'file_manager_desc' => 'Our file manager allows you to upload, create, download, set permissions, zip & unzip files and manage them in an easy manner',
+  'backup_manager' => 'Backup Manager',
+  'backup_manager_desc' => 'Our dashboard allows you to take backups of your files at any given time',
+  'user_manager' => 'User Manager',
+  'user_manager_desc' => 'Invite friends, or staff members to your dashboard. You can set certain permissions per member',
+  'schedule_manager' => 'Schedule Manager',
+  'schedule_manager_desc' => 'Our Schedule system allows you to set timed power controls, backups or tasks',
+  'database_manager' => 'Database Manager',
+  'database_manager_desc' => 'Generate MySQL Databases, create new allocations and a lot more',
+  'game_list_desc_1' => 'Select the game you wish to see plans for',
+  'game_list_desc_2' => 'There are no games available, create them in the admin area.',
+  'game_plans_section_text' => 'Below is a list of available plans for this game. Select the plan that fits you best.',
+  'game_plans_section_text_empty' => 'There are no games available, create them in the admin area.',
+  'team' => 'Team',
+  'team_content' => 'Our team consists of developers, community moderators and support managers.',
+  'welcome_back' => 'Welcome back,',
+  'panel_dreams' => 'Panel of your dreams',
+  'panel_dreams_text' => 'Manage your server with an easy-to-use Game Panel.',
+  'manage_servers' => 'Manage Servers',
+  'dashboard' => 'Dashboard',
+  'easy_manage' => 'Easy to Manage',
+  'easy_manage_text' => 'Our Dashboard allows you to manage your server in an easy manner.',
+  'portal_sw_mode_desc' => 'Select between light and darkmode, choose whatever feels right for you.',
+  'user_anagement' => 'User Management',
+  'user_anagement_desc' => 'Invite friends, or staff members to join you on the server management panel, set spesific permissions per user.',
 ];

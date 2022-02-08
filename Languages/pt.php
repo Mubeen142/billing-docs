@@ -1,9 +1,13 @@
 <?php
- 
+
 return [
- 
-  // Traduzido por portugues por !𝕬𝖉𝖗𝖎𝖆𝖓𝖂𝕹
- 
+
+  // Portuguese translated by !𝕬𝖉𝖗𝖎𝖆𝖓𝖂𝕹
+
+  'title' => 'Cobrança',
+  'connecting' => 'Conectando...',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -17,11 +21,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
- 
- 
-  'title' => 'Cobrança',
-  'connecting' => 'Conectando...',
- 
+
   // Nav Pages
   'billing_page' => 'Cobrança',
   'balance_page' => 'Bolsa',
@@ -43,7 +43,6 @@ return [
   'out_page' => 'Fechar Sessão',
   'plugin_page' => 'Plugins',
 
- 
   // Account
   'account_balance' => 'Saldo da conta',
   'paypal' => 'PayPal',
@@ -68,8 +67,11 @@ return [
   'billing_balance' => 'Saldo de cobrança',
   'admin_area' => 'Área de administração',
   'dark_mode' => 'Modo escuro',
+  'light_mode' => 'Light Mode',
   'logout' => 'Fechar Sessão',
- 
+  'register' => 'Register',
+  'login' => 'Login',
+
   // Cart
   'checkout' => 'Verifica',
   'game' => 'Toque',
@@ -82,7 +84,7 @@ return [
   'cancel' => 'Cancelar',
   'confirm' => 'confirme',
   'confirm_place_order_info' => 'Após clicar em "Confirmar Pedido", seu pedido será colocado e a quantidade será reduzida de seu saldo atual.',
- 
+
   // Billing
   'date_label' => 'Encontro',
   'price_label' => 'Preço',
@@ -95,7 +97,7 @@ return [
   'are_you_sure' => '¿Tem certeza?',
   'remove' => 'Retirar',
   'close' => 'Fechar',
- 
+
   // Plans
   'plans_labal' => 'Planos',
   'add_to_cart' => 'Adicionar ao Carrinho ',
@@ -111,7 +113,8 @@ return [
   'backup' => 'Backup(s)',
   'database' => 'Base de dado(s)',
   'exstra_ports' => 'Porta(s) adicional(is)',
- 
+  'plugin_integration' => 'Plugins installer',
+
   // Invoices
   'invoice_date' => 'Data da fatura:',
   'due_date' => 'Data de vencimento:',
@@ -121,14 +124,13 @@ return [
   'request_cancellation' => 'Solicite um cancelamento',
   'extend_plan_info' => 'Concluir o pagamento estenderá seu plano, clique no botão "Pagar" abaixo para estendê-lo. <br> Após pressionar o botão de pagamento, reduziremos automaticamente o valor correspondente do seu saldo. <br>',
   'remove_plan_info' => 'Solicitar o cancelamento excluirá o servidor, excluindo todos os arquivos sem a capacidade de restaurá-los. Se o servidor estiver ativo, ele perde o dinheiro gasto sem a possibilidade de devolvê-lo!!!',
- 
- 
+
   // Success
   'plan_added_cart' => 'Plano adicionado ao carrinho',
   'server_create_success' => 'Seu servidor foi criado com sucesso, vá para "Meus planos" para mais informações.',
   'stripe_status_url' => 'URL de status: ',
   'success' => 'Sucesso',
- 
+
   // Errors
   'err_remove_game' => 'Sentimos muito. Você deve primeiro excluir todos os planos que pertencem a este jogo.',
   'err_plan_limit' => 'Sentimos muito. Você atingiu o limite do plano. Você só tem permissão para ter a seguinte quantia: ',
@@ -155,7 +157,6 @@ return [
   'about_us_title' => 'Porquê escolher-nos?',
   'about_us_text1' => 'Nós oferecemos dezenas de características fixes, nós temo-lo coberto!',
   'about_us_text2' => '<li><i class=\'bx bx-check-double\' ></i> Gestor de usuário</li><li><i class=\'bx bx-check-double\' ></i> Gestor de plugins</li><li><i class=\'bx bx-check-double\' ></i> Gestor de ficheiros</li>',
-  'about_us_text3' => 'Pode editar isto na Area Administrativa -> Pagamentos -> Portal -> Sobre',
   'get_started' => 'Começar',
   'game_panel' => 'Painel de jogos',
   'game_panel_desc' => 'O nosso painel de jogos intuitivo fornece uma maneira fácil de navegar. A área de faturamento é integrada diretamente ao painel. O painel vem equipado com todos os recursos que você precisa e um design moderno incrível construído sobre Pterodactyl.',

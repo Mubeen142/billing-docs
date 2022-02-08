@@ -1,9 +1,13 @@
 <?php
- 
+
 return [
- 
+
   // French translated by Ikiae
- 
+
+  'title' => 'Facturation',
+  'connecting' => 'Connexion...',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -17,10 +21,6 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
- 
- 
-  'title' => 'Facturation',
-  'connecting' => 'Connexion...',
   
   // Nav Pages
   'billing_page' => 'Produits',
@@ -67,8 +67,11 @@ return [
   'billing_balance' => 'Billing Balance',
   'admin_area' => 'Zone Admin',
   'dark_mode' => 'Mode sombre',
+  'light_mode' => 'Light Mode',
   'logout' => 'Déconnexion',
- 
+  'register' => 'Register',
+  'login' => 'Login',
+
   // Cart
   'checkout' => 'Commander',
   'game' => 'Jeux',
@@ -81,7 +84,7 @@ return [
   'cancel' => 'Annuler',
   'confirm' => 'Confirmer',
   'confirm_place_order_info' => 'Après avoir cliqué sur "Confirmer la commande", votre commande sera passée et le montant sera déduit de votre solde actuel.',
- 
+
   // Billing
   'date_label' => 'Date',
   'price_label' => 'Prix',
@@ -94,7 +97,7 @@ return [
   'are_you_sure' => 'Vous êtes sûr ?',
   'remove' => 'Retirer',
   'close' => 'Fermer',
- 
+
   // Plans
   'plans_labal' => 'Plans',
   'add_to_cart' => 'Ajouter au panier',
@@ -110,7 +113,7 @@ return [
   'backup' => 'Sauvegarde(s)',
   'database' => 'Base de données(s)',
   'exstra_ports' => 'Port supplémentaire(s)',
- 
+
   // Invoices
   'invoice_date' => 'Date de la facture :',
   'due_date' => 'Date d\'échéance :',
@@ -120,14 +123,13 @@ return [
   'request_cancellation' => 'Demande d\'annulation',
   'extend_plan_info' => 'Le paiement complet prolongera votre plan, veuillez cliquer sur le bouton "Payer" ci-dessous pour prolonger.<br> Après avoir appuyé sur le bouton de paiement, nous déduirons automatiquement le montant correspondant de votre solde. <br>',
   'remove_plan_info' => 'Demander l\'annulation supprimera le serveur, en supprimant tous les fichiers sans possibilité de les restaurer. Si le serveur est actif vous perdez les sommes dépensées sans possibilité de les restituer !!!',
- 
- 
+
   // Success
   'plan_added_cart' => 'Ajouté le plan au panier',
   'server_create_success' => 'Votre serveur a été créé avec succès, veuillez vous rendre sur la page "Mes plans" pour plus d\'informations.',
   'stripe_status_url' => 'Statut de l\'url : ',
   'success' => 'Succès',
- 
+
   // Errors
   'err_remove_game' => 'Désolé. Vous devez d\'abord supprimer tous les plans appartenant à ce jeu.',
   'err_plan_limit' => 'Désolé. Vous avez atteint une limite. Vous n\'êtes autorisé à acheter que le montant suivant :',

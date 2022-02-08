@@ -1,9 +1,13 @@
 <?php
- 
+
 return [
- 
+
   // Czech translated by Bazim
- 
+
+  'title' => 'Fakturace',
+  'connecting' => 'Připojování...',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -17,11 +21,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
- 
-  
-  'title' => 'Fakturace',
-  'connecting' => 'Připojování...',
- 
+
   // Nav Pages
   'billing_page' => 'Plány',
   'balance_page' => 'Peněženka',
@@ -42,7 +42,7 @@ return [
   'admin_page' => 'Administrace',
   'out_page' => 'Odhlásit se',
   'plugin_page' => 'Pluginy',
- 
+
   // Account
   'account_balance' => 'Peněženka',
   'paypal' => 'PayPal',
@@ -84,7 +84,7 @@ return [
   'cancel' => 'Zrušit',
   'confirm' => 'Potvrdit',
   'confirm_place_order_info' => 'Po kliknutí na "Potvrdit objednávku" bude Vaše objednávka odeslána a z Vašeho účtu stržená patřičná částka.',
- 
+
   // Billing
   'date_label' => 'Datum',
   'price_label' => 'Cena',
@@ -97,7 +97,7 @@ return [
   'are_you_sure' => 'Jste si jistí?',
   'remove' => 'Odebrat',
   'close' => 'Zavřít',
- 
+
   // Plans
   'plans_labal' => 'Plány',
   'add_to_cart' => 'Přidat do košíku',
@@ -105,7 +105,6 @@ return [
   'monthly' => 'měsíčně',
   'year' => 'rok',
   'quarterly' => 'čtvrtletně',
-  'weekly' => 'týdně',
   'unlimited' => 'neomezeno',
   'days' => 'dní',
   'cpu' => 'Info:',
@@ -115,7 +114,7 @@ return [
   'database' => 'Databáze',
   'exstra_ports' => 'Extra port(y)',
   'plugin_integration' => 'Instalátor pluginů',
- 
+
   // Invoices
   'invoice_date' => 'Datum faktury:',
   'due_date' => 'Do data:',
@@ -125,14 +124,13 @@ return [
   'request_cancellation' => 'Zažádat o zrušení',
   'extend_plan_info' => 'Kliknutím na tlačítko "Zaplatit" dojde k prodloužení tohoto plánu a přitom dojde k automatickému odečtení dotyčné částky z Vašeho zůstatku. <br>',
   'remove_plan_info' => 'Požadavek na zrušení smaže server a všechny soubory bez možnosti obnovení. Pokud je server aktivní, ztratíte utracené peníze bez možnosti jejich vrácení!',
- 
- 
+
   // Success
   'plan_added_cart' => 'Plán byl úspěšně přidán do košíku.',
   'server_create_success' => 'Váš server byl úspěšně vytvořen. V sekci mé plány se dozvíte více informací.',
   'stripe_status_url' => 'Status URL: ',
   'success' => 'Úspěch',
- 
+
   // Errors
   'err_remove_game' => 'Omlouvám se, ale nejdříve musíte odebrat všechny plány patřící pro tuto hru.',
   'err_plan_limit' => 'Omlouvám se, ale dosáhl jste maximálního limitu. Můžete zakoupit pouze následující množství:  ',

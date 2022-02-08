@@ -1,9 +1,13 @@
 <?php
- 
-return [
- 
-  // Japanese taraslated by Disocrd:[MG8888#8888]
 
+return [
+
+  // Japanese translated by MG8888#8888
+
+  'title' => 'お申し込み',
+  'connecting' => '接続中...',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -17,11 +21,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
-  
-  
-  'title' => 'お申し込み',
-  'connecting' => '接続中...',
-  
+
   // Nav Pages
   'billing_page' => 'お申し込み',
   'balance_page' => '残高',
@@ -67,8 +67,11 @@ return [
   'billing_balance' => '請求額',
   'admin_area' => '最高管理エリア',
   'dark_mode' => 'ダークモード',
+  'light_mode' => 'Light Mode',
   'logout' => 'ログアウト',
- 
+  'register' => 'Register',
+  'login' => 'Login',
+
   // Cart
   'checkout' => 'カート内',
   'game' => 'ゲーム名',
@@ -81,7 +84,7 @@ return [
   'cancel' => '戻る',
   'confirm' => '注文の確定',
   'confirm_place_order_info' => '[注文の確定]をクリックすると、お申し込みが行われ、現在の残高から金額が差し引かれます。',
- 
+
   // Billing
   'date_label' => '日付',
   'price_label' => '請求額',
@@ -94,7 +97,7 @@ return [
   'are_you_sure' => 'よろしいですか？',
   'remove' => '解約する',
   'close' => '戻る',
- 
+
   // Plans
   'plans_labal' => 'プラン一覧',
   'add_to_cart' => 'カートに入れる',
@@ -110,7 +113,8 @@ return [
   'backup' => 'バックアップ',
   'database' => 'データベース',
   'exstra_ports' => '追加ポート',
- 
+  'plugin_integration' => 'Plugins installer',
+
   // Invoices
   'invoice_date' => '契約日:',
   'due_date' => '期限:',
@@ -120,14 +124,13 @@ return [
   'request_cancellation' => '契約解除',
   'extend_plan_info' => '支払いを行うとプランの使用期限を延長します。<br> 延長するには[支払う]をクリックしてください。現在の残高から金額が差し引かれます。 <br>',
   'remove_plan_info' => '契約解除をするとサーバーが削除され、復元することはできなくなります。返金はありません。',
- 
- 
+
   // Success
   'plan_added_cart' => 'カートにプランを追加しました',
   'server_create_success' => 'サーバーは正常に作成されました。詳細については、[契約中のサーバー]を見てください。',
   'stripe_status_url' => '領収書 URL: ',
   'success' => '成功',
- 
+
   // Errors
   'err_remove_game' => 'エラー、すべてのプランをカートかた削除する必要があります。',
   'err_plan_limit' => 'エラー、あなたは限界に達しました。購入できるのは次の金額までです: ',
@@ -136,4 +139,68 @@ return [
   'err_plan_exist' => 'カートから削除されました。',
   'err_plans_in_game' => 'このプランは存在しません。',
   'error' => 'エラー',
+
+  // Portal
+  'portal_sw_mode' => 'Switch Mode',
+  'portal' => 'Portal',
+  'features' => 'Features',
+  'games' => 'Games',
+  'about' => 'About',
+  'faqs' => 'FAQ\'s',
+  'discord' => 'Discord',
+  'minimize' => 'Minimize',
+  'footer_contact' => '<p>A108 Adam Street <br>New York, NY 535022<br>United States <br><br><strong>Phone:</strong> +1 5589 55488 55<br><strong>Email:</strong> info@example.com<br></p>',
+  'useful_links' => 'Useful Links',
+  'our_services' => 'Our Services',
+  'about_us' => 'About Us',
+  'about_us_content' => 'Write something about your host here.',
+  'about_us_title' => 'Why choose us?',
+  'about_us_text1' => 'We offer dozens of cool features, we\'ve got you covered!',
+  'about_us_text2' => '<li><i class=\'bx bx-check-double\' ></i> User Manager</li><li><i class=\'bx bx-check-double\' ></i> Plugin Manager</li><li><i class=\'bx bx-check-double\' ></i> File Manager</li>',
+  'get_started' => 'Get Started',
+  'game_panel' => 'Game Panel',
+  'game_panel_desc' => 'Our intuitive Game Panel provides an easy way to navigate through the panel. The billing area is directly built-in to the panel. The panel comes fitted with all of the features you will ever need, and an awesome modern design built upon Pterodactyl.',
+  'console_desc' => 'See latest logs in console, send commands or manage power actions.',
+  'pl_installer' => 'Plugin Installer',
+  'pl_installer_desc' => 'Install over 65000+ Plugins with just one-click',
+  'schedules' => 'Schedules',
+  'schedules_desc' => 'Schedule special events, tasks or power actions.',
+  'happy_clients' => 'Happy Clients',
+  'active_pans' => 'Active Plans',
+  'active_servers' => 'Active Servers',
+  'uptime' => '% Uptime',
+  'register_now' => 'Register Now',
+  'register_now_desc' => 'Register your account and get your server up and running in no-time!',
+  'create_account' => 'Create Account',
+  'faq_section_title' => 'Frequently Asked Questions',
+  'faq_section_title_desc' => 'Below is a list with most asked questions by our customers.',
+  'features_desc' => 'Our Game Panel has a wide variety of features built-in',
+  'plugins_manager' => 'Plugins Manager',
+  'plugins_manager_desc' => 'Choose from over 60000 plugins, and install with just a click of a button',
+  'file_manager' => 'File Manager',
+  'file_manager_desc' => 'Our file manager allows you to upload, create, download, set permissions, zip & unzip files and manage them in an easy manner',
+  'backup_manager' => 'Backup Manager',
+  'backup_manager_desc' => 'Our dashboard allows you to take backups of your files at any given time',
+  'user_manager' => 'User Manager',
+  'user_manager_desc' => 'Invite friends, or staff members to your dashboard. You can set certain permissions per member',
+  'schedule_manager' => 'Schedule Manager',
+  'schedule_manager_desc' => 'Our Schedule system allows you to set timed power controls, backups or tasks',
+  'database_manager' => 'Database Manager',
+  'database_manager_desc' => 'Generate MySQL Databases, create new allocations and a lot more',
+  'game_list_desc_1' => 'Select the game you wish to see plans for',
+  'game_list_desc_2' => 'There are no games available, create them in the admin area.',
+  'game_plans_section_text' => 'Below is a list of available plans for this game. Select the plan that fits you best.',
+  'game_plans_section_text_empty' => 'There are no games available, create them in the admin area.',
+  'team' => 'Team',
+  'team_content' => 'Our team consists of developers, community moderators and support managers.',
+  'welcome_back' => 'Welcome back,',
+  'panel_dreams' => 'Panel of your dreams',
+  'panel_dreams_text' => 'Manage your server with an easy-to-use Game Panel.',
+  'manage_servers' => 'Manage Servers',
+  'dashboard' => 'Dashboard',
+  'easy_manage' => 'Easy to Manage',
+  'easy_manage_text' => 'Our Dashboard allows you to manage your server in an easy manner.',
+  'portal_sw_mode_desc' => 'Select between light and darkmode, choose whatever feels right for you.',
+  'user_anagement' => 'User Management',
+  'user_anagement_desc' => 'Invite friends, or staff members to join you on the server management panel, set spesific permissions per user.',
 ];
