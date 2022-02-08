@@ -1,6 +1,6 @@
 <?php
 
-return 
+return [
 
   // Billing by Mubeen & GIGABAIT
 
@@ -11,12 +11,12 @@ return
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
-  'jp => 'Japanese',
+  'jp' => 'Japanese',
   'cz' => 'Czech',
   'de' => 'Deutsch',
   'nl' => 'Dutch',
   'es' => 'Spanish',
-  pt' => 'Portuguese
+  'pt' => 'Portuguese',
   'fr' => 'French',
   'it' => 'Italian',
   'ru' => 'Russian',
