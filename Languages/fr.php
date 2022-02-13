@@ -2,7 +2,7 @@
 
 return [
 
-  // French translated by Ikiae
+  // French translated by Hartall#7452
 
   'title' => 'Facturation',
   'connecting' => 'Connexion...',
@@ -53,7 +53,7 @@ return [
   'email' => 'Email',
   'caed_number' => 'Numéro de carte',
   'cvv' => 'CVV',
-  'pay_now' => 'Payez maintenant',
+  'pay_now' => 'Recharger votre solde',
   'username' => 'Nom d\'utilisateur',
   'address' => 'Adresse',
   'first_name' => 'Prénom',
@@ -93,7 +93,7 @@ return [
   'extend' => 'Prolonger',
   'days_for' => 'jours pour',
   'deleted' => 'supprimé',
-  'pay' => 'Payer',
+  'pay' => 'Payé',
   'are_you_sure' => 'Êtes vous sûr ?',
   'remove' => 'Retirer',
   'close' => 'Fermer',
