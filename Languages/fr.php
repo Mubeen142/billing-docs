@@ -53,7 +53,7 @@ return [
   'email' => 'Email',
   'caed_number' => 'Numéro de carte',
   'cvv' => 'CVV',
-  'pay_now' => 'Recharger votre solde',
+  'pay_now' => 'Recharger mon solde',
   'username' => 'Nom d\'utilisateur',
   'address' => 'Adresse',
   'first_name' => 'Prénom',
