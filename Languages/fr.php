@@ -21,7 +21,8 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
-  
+  'pl' => 'Polish',
+
   // Nav Pages
   'billing_page' => 'Catalogue',
   'balance_page' => 'Mon Solde',

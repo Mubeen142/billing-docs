@@ -21,6 +21,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
+  'pl' => 'Polish',
 
   // Nav Pages
   'billing_page' => 'Cobrança',
@@ -180,7 +181,7 @@ return [
   'file_manager' => 'Gestor de Ficheiros',
   'file_manager_desc' => 'O nosso gestor de ficheiros traz a possibilidade de enviar, criar, descarregar, criar permissões, compressar ou descompressar e gerir os seus ficheiros de uma forma fácil.',
   'backup_manager' => 'Gestor de cópias de segurança',
-  'backup_manager_desc' => 'Nosso painel permite que você faça cópias de  segurança dos seus arquivos a qualquer momento',
+  'backup_manager_desc' => 'Nosso painel permite que você faça cópias de segurança dos seus arquivos a qualquer momento',
   'user_manager' => 'Gestor de usuários',
   'user_manager_desc' => 'Convide amigos ou membros da equipa para o seu painel. Você pode definir certas permissões por membro',
   'schedule_manager' => 'Gestor de programas automáticos',

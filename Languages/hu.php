@@ -21,6 +21,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
+  'pl' => 'Polish',
 
   // Nav Pages
   'billing_page' => 'Számlázás',

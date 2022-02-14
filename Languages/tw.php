@@ -21,6 +21,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => '中文',
+  'pl' => 'Polish',
 
   // Nav Pages
   'billing_page' => '帳單',
