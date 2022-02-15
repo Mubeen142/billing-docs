@@ -21,6 +21,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
+  'pl' => 'Polish',
 
   // Nav Pages
   'billing_page' => 'Billing',
@@ -120,7 +121,7 @@ return [
   'due_date' => 'Due Date:',
   'invoice_price' => 'Price:',
   'renew_plan' => 'Renew Plan',
-  'view_invoices' => 'View Invoices',
+  'viewing_invoices' => 'View Invoices',
   'request_cancellation' => 'Request Cancellation',
   'extend_plan_info' => 'Completing payment will extend your plan, please click the "Pay" button below to extend.<br> After the pay button has been pressed, we will automatically reduce the corresponding amount from your balance. <br>',
   'remove_plan_info' => 'Requesting Cancellation will delete the server, deleting all files without the possibility to restore. If the server is active you lose the money spent without the possibility of returning them!!!',

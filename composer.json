@@ -1,0 +1,7 @@
+{
+    "name": "mubeen142/billing-docs",
+    "type": "project",
+    "require-dev": {
+        "phpstan/phpstan": "^1.4"
+    }
+}

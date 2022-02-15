@@ -21,6 +21,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => '中文',
+  'pl' => 'Polish',
 
   // Nav Pages
   'billing_page' => '帳單',
@@ -120,7 +121,7 @@ return [
   'due_date' => '限制日期:',
   'invoice_price' => '款項:',
   'renew_plan' => '延續方案',
-  'view_invoices' => '查看賬單',
+  'viewing_invoices' => '查看賬單',
   'request_cancellation' => '申請取消',
   'extend_plan_info' => '完成付款後會延續你的方案，請按下面的【付款】按鈕延續。<br> 按下付款後，我們會自動從你的餘額裡扣取相對的款項。 <br>',
   'remove_plan_info' => '申請取消後會永久刪除整個伺服器，包括所有的檔案。如果該伺服器是活躍的，你將會失去所有你花的錢，不能退款！！！',

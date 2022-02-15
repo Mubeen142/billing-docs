@@ -21,7 +21,8 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
-  
+  'pl' => 'Polish',
+
   // Nav Pages
   'billing_page' => 'Catalogue',
   'balance_page' => 'Mon Solde',
@@ -119,7 +120,7 @@ return [
   'due_date' => 'Date d\'échéance :',
   'invoice_price' => 'Prix :',
   'renew_plan' => 'Renouveler la souscription',
-  'view_invoices' => 'Afficher les factures',
+  'viewing_invoices' => 'Afficher les factures',
   'request_cancellation' => 'Demande d\'annulation',
   'extend_plan_info' => 'Le paiement complet prolongera votre serveur, veuillez cliquer sur le bouton "Payer" ci-dessous pour prolonger.<br> Après avoir appuyé sur le bouton de paiement, nous déduirons automatiquement le montant correspondant de votre solde. <br>',
   'remove_plan_info' => 'Demander l\'annulation supprimera le serveur, en supprimant tous les fichiers sans possibilité de les restaurer. Si le serveur est actif vous perdez les sommes dépensées sans possibilité de restitution !',
