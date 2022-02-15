@@ -121,7 +121,7 @@ return [
   'due_date' => 'Termin płatności:',
   'invoice_price' => 'Cena:',
   'renew_plan' => 'Odnów',
-  'view_invoices' => 'Zobacz rachunki',
+  'viewing_invoices' => 'Zobacz rachunki',
   'request_cancellation' => 'Poproś o anulowanie',
   'extend_plan_info' => 'Dokonanie płatności przedłuży Twój plan, kliknij przycisk „Zapłać” poniżej, aby przedłużyć.<br> Po naciśnięciu przycisku płatności automatycznie zmniejszymy odpowiednią kwotę z Twojego salda. <br>',
   'remove_plan_info' => 'Żądanie anulowania spowoduje usunięcie serwera, usuwając wszystkie pliki bez możliwości przywrócenia. Jeśli serwer jest aktywny tracisz wydane pieniądze bez możliwości ich zwrotu!',

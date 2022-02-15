@@ -121,7 +121,7 @@ return [
   'due_date' => 'Data de vencimento:',
   'invoice_price' => 'Preço:',
   'renew_plan' => 'Renovar plano',
-  'view_invoices' => 'Ver faturas',
+  'viewing_invoices' => 'Ver faturas',
   'request_cancellation' => 'Solicite um cancelamento',
   'extend_plan_info' => 'Concluir o pagamento estenderá seu plano, clique no botão "Pagar" abaixo para estendê-lo. <br> Após pressionar o botão de pagamento, reduziremos automaticamente o valor correspondente do seu saldo. <br>',
   'remove_plan_info' => 'Solicitar o cancelamento excluirá o servidor, excluindo todos os arquivos sem a capacidade de restaurá-los. Se o servidor estiver ativo, ele perde o dinheiro gasto sem a possibilidade de devolvê-lo!!!',

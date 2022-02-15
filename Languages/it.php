@@ -121,7 +121,7 @@ return [
   'due_date' => 'Scadenza:',
   'invoice_price' => 'Prezzo:',
   'renew_plan' => 'Rinnova piano',
-  'view_invoices' => 'Visualizza fatture',
+  'viewing_invoices' => 'Visualizza fatture',
   'request_cancellation' => 'Richiedi cancellazione',
   'extend_plan_info' => 'Il completamento del pagamento estenderà il tuo piano, fai clic sul pulsante "Paga" di seguito per estendere.<br> Dopo aver premuto il pulsante di pagamento, i soldi dal sando verranno rimossi. <br>',
   'remove_plan_info' => 'La richiesta di cancellazione cancellerà il server, cancellando tutti i file senza possibilità di ripristino. Se il server è attivo perderai i soldi spesi senza possibilità di restituirli!!!',

@@ -121,7 +121,7 @@ return [
   'due_date' => 'Do data:',
   'invoice_price' => 'Cena:',
   'renew_plan' => 'Obnovit plán',
-  'view_invoices' => 'Zobrazit faktury',
+  'viewing_invoices' => 'Zobrazit faktury',
   'request_cancellation' => 'Zažádat o zrušení',
   'extend_plan_info' => 'Kliknutím na tlačítko "Zaplatit" dojde k prodloužení tohoto plánu a přitom dojde k automatickému odečtení dotyčné částky z Vašeho zůstatku. <br>',
   'remove_plan_info' => 'Požadavek na zrušení smaže server a všechny soubory bez možnosti obnovení. Pokud je server aktivní, ztratíte utracené peníze bez možnosti jejich vrácení!',

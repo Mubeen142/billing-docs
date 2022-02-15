@@ -121,7 +121,7 @@ return [
   'due_date' => 'Fizetési határidő:',
   'invoice_price' => 'Ára:',
   'renew_plan' => 'Meghosszabbítás',
-  'view_invoices' => 'Számla megtekintése',
+  'viewing_invoices' => 'Számla megtekintése',
   'request_cancellation' => 'Lemondás',
   'extend_plan_info' => 'A "Megerősítés" gombra kattintva, a csomag hosszabbításra kerül a megadott időtartalra. <br>',
   'remove_plan_info' => 'Ha lemondod a szolgáltatást, azonnal törölve lesz a szerver melyet nem lehet visszavonni! A levont összeg nem kerül visszatérítésre!',

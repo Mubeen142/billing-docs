@@ -121,7 +121,7 @@ return [
   'due_date' => 'Fälligkeitsdatum:',
   'invoice_price' => 'Preis:',
   'renew_plan' => 'Plan verlängern',
-  'view_invoices' => 'Rechnungen ansehen',
+  'viewing_invoices' => 'Rechnungen ansehen',
   'request_cancellation' => 'Abbestellen',
   'extend_plan_info' => 'Nach Abschluss der Zahlung wird Ihr Plan verlängert. <br> Nach Abschluss der Zahlung wird der Betrag automatisch von ihrem Konto abgezogen. <br>',
   'remove_plan_info' =>  'Eine Stornierung löscht den Server und alle zugehörigen Dateien - eine Wiederherstellung ist nicht möglich. Achtung: Falls der Server noch aktiv ist, ist keine Rückerstattung des noch verbleibenden Betrags möglich.',

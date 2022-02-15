@@ -121,7 +121,7 @@ return [
   'due_date' => '期限:',
   'invoice_price' => '価格:',
   'renew_plan' => 'プラン更新',
-  'view_invoices' => '請求履歴を表示',
+  'viewing_invoices' => '請求履歴を表示',
   'request_cancellation' => '契約解除',
   'extend_plan_info' => '支払いを行うとプランの使用期限を延長します。<br> 延長するには[支払う]をクリックしてください。現在の残高から金額が差し引かれます。 <br>',
   'remove_plan_info' => '契約解除をするとサーバーが削除され、復元することはできなくなります。返金はありません。',

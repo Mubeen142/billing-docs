@@ -121,7 +121,7 @@ return [
   'due_date' => 'Vervaldatum:',
   'invoice_price' => 'Prijs:',
   'renew_plan' => 'Plan verlengen',
-  'view_invoices' => 'Bekijk factures',
+  'viewing_invoices' => 'Bekijk factures',
   'request_cancellation' => 'Ontzegging aanvragen',
   'extend_plan_info' => 'Het betalen van het bedrag zal de plan verlengen, klik daarvoor het betalen knopje hier beneden.<br> Nadat het betalen knop is ingedrukt, wordt er automatisch het bedrag afgeschreven van je rekening en je plan verlengd. <br>',
   'remove_plan_info' => 'Het aanvragen van ontzegging zal je server permanent verwijderen zonder mogelijkheid om terug te krijgen. Alle bestanden, en databases worden verwijderd. Er is geen mogelijkheid om dit proces terug te draaien. Wees voorzichtig!',
