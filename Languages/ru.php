@@ -141,6 +141,16 @@ return [
   'err_plans_in_game' => 'Планов на эту игру нет.',
   'error' => 'Ошибка',
 
+  // Domain
+  'subdomain_integration' => 'Поддержка поддомена',
+  'server_ip_address' => 'IP Адрес Сервера',
+  'memory' => 'ОЗУ',
+  'plan' => 'План',
+  'plan_subdomain' => 'Поддомен план',
+  'zone' => 'Зона',
+  'invoices' => 'Счета',
+  'plan_error' => 'В вашем плане нету поддержки создавания поддомена',
+
   // Portal
   'portal_sw_mode' => 'Изменить режим',
   'portal' => 'Портал',
