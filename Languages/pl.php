@@ -151,6 +151,16 @@ return [
   'invoices' => 'Rachunki',
   'plan_error' => 'Twój plan nie wspiera sub-domen',
 
+  // Domain
+  'subdomain_integration' => 'Subdomain support',
+  'server_ip_address' => 'Server IP Address',
+  'memory' => 'Memory',
+  'plan' => 'Plan',
+  'plan_subdomain' => 'Plan subdomain',
+  'zone' => 'Zone',
+  'invoices' => 'Invoices',
+  'plan_error' => 'Your plan does not support creating a subdomain',
+
   // Portal
   'portal_sw_mode' => 'Zmień tryb',
   'portal' => 'Portal',

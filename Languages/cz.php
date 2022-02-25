@@ -141,6 +141,16 @@ return [
   'err_plans_in_game' => 'Pro tuto hru neexistují žádné plány.',
   'error' => 'Chyba',
 
+  // Domain
+  'subdomain_integration' => 'Subdomain support',
+  'server_ip_address' => 'Server IP Address',
+  'memory' => 'Memory',
+  'plan' => 'Plan',
+  'plan_subdomain' => 'Plan subdomain',
+  'zone' => 'Zone',
+  'invoices' => 'Invoices',
+  'plan_error' => 'Your plan does not support creating a subdomain',
+
   // Portal
   'portal_sw_mode' => 'Změnit režim',
   'portal' => 'Portál',

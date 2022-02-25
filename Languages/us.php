@@ -2,8 +2,12 @@
 
 return [
 
-  // English translated by Gigabait
+  // Billing by Mubeen & GIGABAIT
 
+  'title' => 'Billing',
+  'connecting' => 'Connecting...',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -19,10 +23,6 @@ return [
   'tw' => 'Chinese',
   'pl' => 'Polish',
 
-  
-  'title' => 'Billing',
-  'connecting' => 'Connecting...',
-  
   // Nav Pages
   'billing_page' => 'Billing',
   'balance_page' => 'Balance',
@@ -43,7 +43,7 @@ return [
   'admin_page' => 'Admin',
   'out_page' => 'Log Out',
   'plugin_page' => 'Plugins',
-  
+
   // Account
   'account_balance' => 'Account Balance',
   'paypal' => 'PayPal',
@@ -121,11 +121,10 @@ return [
   'due_date' => 'Due Date:',
   'invoice_price' => 'Price:',
   'renew_plan' => 'Renew Plan',
-  'view_invoices' => 'View Invoices',
+  'viewing_invoices' => 'View Invoices',
   'request_cancellation' => 'Request Cancellation',
   'extend_plan_info' => 'Completing payment will extend your plan, please click the "Pay" button below to extend.<br> After the pay button has been pressed, we will automatically reduce the corresponding amount from your balance. <br>',
   'remove_plan_info' => 'Requesting Cancellation will delete the server, deleting all files without the possibility to restore. If the server is active you lose the money spent without the possibility of returning them!!!',
-
 
   // Success
   'plan_added_cart' => 'Added plan to cart',
@@ -142,10 +141,9 @@ return [
   'err_plans_in_game' => 'There are no plans for this game.',
   'error' => 'Error',
 
-
   // Domain
   'subdomain_integration' => 'Subdomain support',
-  'server_ip_address' => 'Server Ip Address',
+  'server_ip_address' => 'Server IP Address',
   'memory' => 'Memory',
   'plan' => 'Plan',
   'plan_subdomain' => 'Plan subdomain',

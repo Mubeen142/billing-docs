@@ -108,8 +108,8 @@ return [
   'quarterly' => 'Трехмесячно',
   'unlimited' => 'Безлимита',
   'days' => 'дней',
-  'cpu' => 'CPU:',
-  'ram' => 'RAM:',
+  'cpu' => 'ЦПУ:',
+  'ram' => 'ОЗУ:',
   'storage' => 'Хранилище:',
   'backup' => 'Бэкап(ов)',
   'database' => 'Баз данных',
@@ -140,6 +140,16 @@ return [
   'err_plan_exist' => 'План был удален из вашей корзины.',
   'err_plans_in_game' => 'Планов на эту игру нет.',
   'error' => 'Ошибка',
+
+  // Domain
+  'subdomain_integration' => 'Поддержка поддомена',
+  'server_ip_address' => 'IP Адрес Сервера',
+  'memory' => 'ОЗУ',
+  'plan' => 'План',
+  'plan_subdomain' => 'Поддомен план',
+  'zone' => 'Зона',
+  'invoices' => 'Счета',
+  'plan_error' => 'В вашем плане нету поддержки создавания поддомена',
 
   // Portal
   'portal_sw_mode' => 'Изменить режим',
