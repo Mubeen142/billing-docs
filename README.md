@@ -1,10 +1,8 @@
 # ![billing](https://i.imgur.com/bIVW868.png)
-**Thanks** for buying our module.
-## What do we want to add?
-- Gift cards
-- More soon
-
-## Community Guides
+**Billing Module** open-source billing documentation and translation repository
+## Documentation:
+* https://github.com/Mubeen142/billing-docs/wiki/
+Note: Most documentation regards to installation are already included within the Billing module in a file called README
 
 ### Installing other locales
 Installation is very simple, just 2 commands
