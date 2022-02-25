@@ -24,7 +24,7 @@ return [
   'pl' => 'Polish',
 
   // Nav Pages
-  'billing_page' => 'Płatności',
+  'billing_page' => 'Kup serwer',
   'balance_page' => 'Portfel',
   'cart_page' => 'Koszyk',
   'plan_page' => 'Moje plany',
@@ -140,6 +140,16 @@ return [
   'err_plan_exist' => 'Plan usunięty z koszyka.',
   'err_plans_in_game' => 'Nie ma planów dla tej gry.',
   'error' => 'Błąd',
+  
+  // Domain
+  'subdomain_integration' => 'Wsparcie sub-domen',
+  'server_ip_address' => 'Adres ip serwera',
+  'memory' => 'Pamięć',
+  'plan' => 'Plan',
+  'plan_subdomain' => 'Plan subdomeny',
+  'zone' => 'Strefa',
+  'invoices' => 'Rachunki',
+  'plan_error' => 'Twój plan nie wspiera sub-domen',
 
   // Portal
   'portal_sw_mode' => 'Zmień tryb',
@@ -154,10 +164,10 @@ return [
   'useful_links' => 'Przydadne linki',
   'our_services' => 'Nasze usługi',
   'about_us' => 'O nas',
-  'about_us_content' => 'Write something about your host here.',
+  'about_us_content' => 'Jesteśmy hostingiem który został założony w 1541',
   'about_us_title' => 'Dlaczego my?',
   'about_us_text1' => 'We offer dozens of cool features, we\'ve got you covered!',
-  'about_us_text2' => '<li><i class=\'bx bx-check-double\' ></i> User Manager</li><li><i class=\'bx bx-check-double\' ></i> Plugin Manager</li><li><i class=\'bx bx-check-double\' ></i> File Manager</li>',
+  'about_us_text2' => '<li><i class=\'bx bx-check-double\' ></i> Użytkownicy</li><li><i class=\'bx bx-check-double\' ></i> Instalator pluginów</li><li><i class=\'bx bx-check-double\' ></i> Menadżer plików</li>',
   'get_started' => 'Zacznijmy',
   'game_panel' => 'Nasz Panel',
   'game_panel_desc' => 'Nasz intuicyjny panel gry zapewnia łatwy sposób poruszania się po panelu. Obszar rozliczeniowy jest wbudowany bezpośrednio w panel. Panel jest wyposażony we wszystkie funkcje, których kiedykolwiek będziesz potrzebować, oraz niesamowity nowoczesny design zbudowany na Pterodactyl.',
@@ -195,8 +205,8 @@ return [
   'team' => 'Team',
   'team_content' => 'Nasz zespół składa się z programistów, moderatorów społeczności i menedżerów wsparcia.',
   'welcome_back' => 'Witaj ponownie, ',
-  'panel_dreams' => 'Hosting Twoich Marzeń',
-  'panel_dreams_text' => 'IziHosting używa nowocesnego Panelu',
+  'panel_dreams' => 'Hosting',
+  'panel_dreams_text' => 'Panel twoich marzeń',
   'manage_servers' => 'Zarządzaj serwerem',
   'dashboard' => 'Zacznijmy',
   'easy_manage' => 'Łatwy w użyciu',
