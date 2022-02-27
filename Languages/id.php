@@ -121,7 +121,7 @@ return [
   'due_date' => 'Tenggat waktu:',
   'invoice_price' => 'Harga:',
   'renew_plan' => 'Perbarui Layanan',
-  'view_invoices' => 'Lihat Tagihan',
+  'viewing_invoices' => 'Lihat Tagihan',
   'request_cancellation' => 'Permintaan Pembatalan',
   'extend_plan_info' => 'Menyelesaikan pembayaran akan memperpanjang Layanan Anda, silakan klik tombol "Bayar" di bawah ini untuk memperpanjang.<br> Setelah tombol bayar ditekan, kami akan secara otomatis mengurangi jumlah yang sesuai dari saldo Anda. <br>',
   'remove_plan_info' => 'Meminta Pembatalan akan menghapus server, menghapus semua file tanpa kemungkinan untuk memulihkan. Jika server aktif, Anda kehilangan uang yang dihabiskan tanpa kemungkinan mengembalikannya!!!',
