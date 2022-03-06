@@ -2,8 +2,12 @@
  
 return [
  
-  // Traduzido por portugues por VozDeOuro
+  // Brazilian Portuguese language translated by VozDeOuro
  
+  'title' => 'Cobrança',
+  'connecting' => 'Conectando...',
+
+  // Languages
   'us' => 'English',
   'id' => 'Indonesian',
   'hu' => 'Hungarian',
@@ -18,11 +22,6 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
-  
- 
- 
-  'title' => 'Cobrança',
-  'connecting' => 'Conectando...',
  
   // Nav Pages
   'billing_page' => 'Cobrança',
@@ -69,7 +68,10 @@ return [
   'billing_balance' => 'Saldo de cobrança',
   'admin_area' => 'Área de administração',
   'dark_mode' => 'Modo escuro',
+  'light_mode' => 'Light Mode',
   'logout' => 'Fechar Sessão',
+  'register' => 'Register',
+  'login' => 'Login',
  
   // Cart
   'checkout' => 'Concluir Compra',
@@ -123,7 +125,6 @@ return [
   'extend_plan_info' => 'Concluir o pagamento estenderá seu plano, clique no botão "Pagar" para estendê-lo. <br> Após pressionar o botão de pagamento, reduziremos automaticamente o valor correspondente do seu saldo. <br>',
   'remove_plan_info' => 'Solicitar o cancelamento excluirá o servidor, excluindo todos os arquivos sem a capacidade de restaurá-los. Se o servidor estiver ativo, ele perde o dinheiro gasto sem a possibilidade de devolvê-lo!!!',
  
- 
   // Success
   'plan_added_cart' => 'Plano adicionado ao carrinho',
   'server_create_success' => 'Seu servidor foi criado com sucesso, vá para "Meus planos" para mais informações.',
@@ -139,7 +140,17 @@ return [
   'err_plans_in_game' => 'Não há planos para este jogo.',
   'error' => 'Erro',
 
-  // Portal English language
+  // Domain
+  'subdomain_integration' => 'Subdomain support',
+  'server_ip_address' => 'Server IP Address',
+  'memory' => 'Memory',
+  'plan' => 'Plan',
+  'plan_subdomain' => 'Plan subdomain',
+  'zone' => 'Zone',
+  'invoices' => 'Invoices',
+  'plan_error' => 'Your plan does not support creating a subdomain',
+
+  // Portal
   'portal_sw_mode' => 'Mudar Modo',
   'portal' => 'Portal',
   'features' => 'Recursos',
