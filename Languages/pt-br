@@ -2,7 +2,7 @@
  
 return [
  
-  // Traduzido para portugues BR por VozDeOuro
+  // Traduzido por portugues por VozDeOuro
  
   'us' => 'English',
   'id' => 'Indonesian',
@@ -166,8 +166,8 @@ return [
   'schedules' => 'Agendamento de tarefas',
   'schedules_desc' => 'Programe eventos especiais, tarefas ou ações.',
   'happy_clients' => 'Clientes felizes',
-  'active_pans' => 'Planos Activos',
-  'active_servers' => 'Servidores Activos',
+  'active_pans' => 'Planos Ativos',
+  'active_servers' => 'Servidores Ativos',
   'uptime' => '% Tempo online',
   'register_now' => 'Registar agora',
   'register_now_desc' => 'Registe a sua conta e tenha o seu servidor online em pouco tempo!',
