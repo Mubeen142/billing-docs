@@ -17,7 +17,7 @@ return [
   'nl' => 'Dutch',
   'es' => 'Spanish',
   'pt' => 'Português',
-  'pt-br' => 'Português do Brasil',
+  'br' => 'Português do Brasil',
   'fr' => 'French',
   'it' => 'Italian',
   'ru' => 'Russian',
