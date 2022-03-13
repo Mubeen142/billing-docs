@@ -90,7 +90,7 @@ return [
   'date_label' => 'Data',
   'price_label' => 'Preço',
   'view_plan' => 'Ver planos',
-  'view_invoices' => 'Ver faturas',
+  'viewing_invoices' => 'Ver faturas',
   'extend' => 'Extender',
   'days_for' => 'Dias para',
   'deleted' => 'Deletado',
