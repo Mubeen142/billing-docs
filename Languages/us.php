@@ -214,4 +214,11 @@ return [
   'portal_sw_mode_desc' => 'Select between light and darkmode, choose whatever feels right for you.',
   'user_anagement' => 'User Management',
   'user_anagement_desc' => 'Invite friends, or staff members to join you on the server management panel, set specific permissions per user.',
+
+  // Gift Card
+  'gift_card' => 'Gift Card',
+  'gift_card_code' => 'Gift Card Code',
+  'gift_card_not_exist' => 'Gift Card does not exist or its limit has expired',
+  'gift_card_used_error' => 'You have already used this gift card',
+  'gift_card_used_success' => 'Your balance has been updated',
 ];
