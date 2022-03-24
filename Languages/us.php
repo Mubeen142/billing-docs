@@ -213,5 +213,5 @@ return [
   'easy_manage_text' => 'Our Dashboard allows you to manage your server in an easy manner.',
   'portal_sw_mode_desc' => 'Select between light and darkmode, choose whatever feels right for you.',
   'user_anagement' => 'User Management',
-  'user_anagement_desc' => 'Invite friends, or staff members to join you on the server management panel, set spesific permissions per user.',
+  'user_anagement_desc' => 'Invite friends, or staff members to join you on the server management panel, set specific permissions per user.',
 ];
