@@ -1,9 +1,9 @@
 <?php
- 
+
 return [
- 
+
   // Brazilian Portuguese language translated by VozDeOuro
- 
+
   'title' => 'Cobrança',
   'connecting' => 'Conectando...',
 
@@ -22,7 +22,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
- 
+
   // Nav Pages
   'billing_page' => 'Cobrança',
   'balance_page' => 'Saldo',
@@ -72,7 +72,7 @@ return [
   'logout' => 'Fechar Sessão',
   'register' => 'Register',
   'login' => 'Login',
- 
+
   // Cart
   'checkout' => 'Concluir Compra',
   'game' => 'Jogo',
@@ -85,7 +85,7 @@ return [
   'cancel' => 'Cancelar',
   'confirm' => 'Confirmar',
   'confirm_place_order_info' => 'Após clicar em "Confirmar Pedido", seu pedido será colocado e a quantidade será reduzida de seu saldo atual.',
- 
+
   // Billing
   'date_label' => 'Data',
   'price_label' => 'Preço',
@@ -98,7 +98,7 @@ return [
   'are_you_sure' => 'Tem certeza?',
   'remove' => 'Remover',
   'close' => 'Fechar',
- 
+
   // Plans
   'plans_labal' => 'Planos',
   'add_to_cart' => 'Adicionar ao Carrinho ',
@@ -114,7 +114,7 @@ return [
   'backup' => 'Backup(s)',
   'database' => 'Base de dado(s)',
   'exstra_ports' => 'Porta(s) adicional(is)',
- 
+
   // Invoices
   'invoice_date' => 'Data da fatura:',
   'due_date' => 'Data de vencimento:',
@@ -124,13 +124,13 @@ return [
   'request_cancellation' => 'Solicite um cancelamento',
   'extend_plan_info' => 'Concluir o pagamento estenderá seu plano, clique no botão "Pagar" para estendê-lo. <br> Após pressionar o botão de pagamento, reduziremos automaticamente o valor correspondente do seu saldo. <br>',
   'remove_plan_info' => 'Solicitar o cancelamento excluirá o servidor, excluindo todos os arquivos sem a capacidade de restaurá-los. Se o servidor estiver ativo, ele perde o dinheiro gasto sem a possibilidade de devolvê-lo!!!',
- 
+
   // Success
   'plan_added_cart' => 'Plano adicionado ao carrinho',
   'server_create_success' => 'Seu servidor foi criado com sucesso, vá para "Meus planos" para mais informações.',
   'stripe_status_url' => 'URL de status: ',
   'success' => 'Sucesso',
- 
+
   // Errors
   'err_remove_game' => 'Sentimos muito. Você deve primeiro excluir todos os planos que pertencem a este jogo.',
   'err_plan_limit' => 'Sentimos muito. Você atingiu o limite do plano. Você só tem permissão para ter a seguinte quantia: ',
@@ -214,4 +214,5 @@ return [
   'portal_sw_mode_desc' => 'Selecione entre o modo claro ou escuro, o que achar melhor.',
   'user_anagement' => 'Gerenciador de usuários',
   'user_anagement_desc' => 'Convide amigos ou membros da equipe para o seu painel. Você pode definir as permissões por membro.',
+  'create_new' => 'Create Server',
 ];
