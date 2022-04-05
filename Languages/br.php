@@ -214,5 +214,4 @@ return [
   'portal_sw_mode_desc' => 'Selecione entre o modo claro ou escuro, o que achar melhor.',
   'user_anagement' => 'Gerenciador de usuários',
   'user_anagement_desc' => 'Convide amigos ou membros da equipe para o seu painel. Você pode definir as permissões por membro.',
-  'create_new' => 'Create Server',
 ];
