@@ -140,6 +140,7 @@ return [
   'err_plan_exist' => 'The plan has been removed from your cart.',
   'err_plans_in_game' => 'There are no plans for this game.',
   'error' => 'Error',
+  'error_full_node' => 'This node is full!!! Please inform the administrator',
 
   // Domain
   'subdomain_integration' => 'Subdomain support',
