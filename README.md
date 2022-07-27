@@ -7,7 +7,7 @@ Note: Most documentation regards to installation are already included within the
 ### Installing other locales
 Installation is very simple, just 2 commands
 ```sh
-cd /var/www/pterodactyl/app/Models/Billing/languages
+cd /var/www/pterodactyl/app/Models/Billing/lang
 wget https://raw.githubusercontent.com/Mubeen142/billing-docs/main/Languages/<LOCALE CODE (e.g. us, nl, pl)>.php
 ```
 And that is it :)
