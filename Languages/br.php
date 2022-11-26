@@ -22,6 +22,7 @@ return [
   'it' => 'Italian',
   'ru' => 'Russian',
   'tw' => 'Chinese',
+  'ua' => 'Ukrainian',
 
   // Nav Pages
   'billing_page' => 'Cobrança',
