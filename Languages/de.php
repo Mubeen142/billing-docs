@@ -3,6 +3,7 @@
 return [
 
   // German translated by FunGuava#6566 & Chaarlix#0889
+  // German is maintained by Justman10000#0702
 
   'title' => 'Abrechnung',
   'connecting' => 'Verbinde…',
@@ -185,7 +186,7 @@ return [
   'register_now_desc' => 'Registriere dich jetzt und bringe deinen Server im Handumdrehen zum Laufen!',
   'create_account' => 'Konto erstellen',
   'faq_section_title' => 'Häufig gestellte Fragen',
-  'faq_section_title_desc' => 'Nachfolgend findest Du eine Liste mit häufig gestellten Fragen.',
+  'faq_section_title_desc' => 'Unten findest du eine Liste mit den am häufigsten gestellten Fragen unserer Kunden.',
   'features_desc' => 'Unser Game-Panel verfügt über eine Vielzahl von integrierten Funktionen',
   'plugins_manager' => 'Plugin-Manager',
   'plugins_manager_desc' => 'Wähle aus 60.000 Plugins und installiere sie mit nur einem Klick',
@@ -196,12 +197,12 @@ return [
   'user_manager' => 'Benutzer-Manager',
   'user_manager_desc' => 'Lade Freunde oder Supporter zu deinem Dashboard ein. Du kannst einzelne Berechtigungen je Benutzer setzen.',
   'schedule_manager' => 'Zeitplan-Manager',
-  'schedule_manager_desc' => 'Mit unserem Zeitplansystem kannst Du zeitgesteuerte Leistungssteuerungen, Sicherungen oder Aufgaben festlegen',
+  'schedule_manager_desc' => 'Unser Zeitplansystem ermöglicht es dir, zeitgesteuerte Stromkontrollen, Backups oder Aufgaben festzulegen',
   'database_manager' => 'Datenbank-Manager',
   'database_manager_desc' => 'Generiere MySQL-Datenbanken, erstelle neue Port-Zuordnungen und vieles mehr',
-  'game_list_desc_1' => 'Wähle das Spiel aus, für welches Du Pläne sehen möchten',
+  'game_list_desc_1' => 'Wähle das Spiel aus, für das du Pläne sehen möchtest',
   'game_list_desc_2' => 'Es sind keine Spiele verfügbar, erstelle sie im Admin-Bereich.',
-  'game_plans_section_text' => 'Nachfolgend findest Du eine Liste der verfügbaren Pläne für dieses Spiel. Wähle den Plan, der am besten zu Dir passt.',
+  'game_plans_section_text' => 'Im Folgenden findest du eine Liste der verfügbaren Pläne für dieses Spiel. Wähle den Plan aus, der am besten zu dir passt.',
   'game_plans_section_text_empty' => 'Es sind keine Spiele verfügbar, erstelle sie im Admin-Bereich.',
   'team' => 'Team',
   'team_content' => 'Unser Team besteht aus Entwicklern, Community-Moderatoren und Support-Managern.',
@@ -215,4 +216,11 @@ return [
   'portal_sw_mode_desc' => 'Wähle zwischen Light- und Darkmode, wähle was sich für dich richtig anfühlt.',
   'user_anagement' => 'Benutzerverwaltung',
   'user_anagement_desc' => 'Lade Freunde oder Supporter ein, sich dir im Server-Management-Panel anzuschließen und lege spezifische Berechtigungen für jeden Benutzer fest.',
+
+  // Gift Card
+  'gift_card' => 'Geschenkkarte',
+  'gift_card_code' => 'Geschenkkarten-Code',
+  'gift_card_not_exist' => 'Die Geschenkkarte ist nicht vorhanden oder ihr Limit ist abgelaufen',
+  'gift_card_used_error' => 'Du hast diesen Geschenkgutschein bereits verwendet',
+  'gift_card_used_success' => 'Dein Guthaben wurde aktualisiert',
 ];
