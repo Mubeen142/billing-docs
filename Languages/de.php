@@ -197,7 +197,7 @@ return [
   'user_manager' => 'Benutzer-Manager',
   'user_manager_desc' => 'Lade Freunde oder Supporter zu deinem Dashboard ein. Du kannst einzelne Berechtigungen je Benutzer setzen.',
   'schedule_manager' => 'Zeitplan-Manager',
-  'schedule_manager_desc' => 'Unser Zeitplansystem ermöglicht es dir, zeitgesteuerte Stromkontrollen, Backups oder Aufgaben festzulegen',
+  'schedule_manager_desc' => 'Unser Zeitplansystem ermöglicht es dir, zeitgesteuerte Leistungskontrollen, Backups oder Aufgaben festzulegen',
   'database_manager' => 'Datenbank-Manager',
   'database_manager_desc' => 'Generiere MySQL-Datenbanken, erstelle neue Port-Zuordnungen und vieles mehr',
   'game_list_desc_1' => 'Wähle das Spiel aus, für das du Pläne sehen möchtest',
